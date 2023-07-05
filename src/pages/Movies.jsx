@@ -7,7 +7,7 @@ import { MoviesList } from '../components/MoviesList/MoviesList';
 
 const override = {
 	display: 'block',
-	margin: '30px auto',
+	margin: '100px auto',
 };
 
 

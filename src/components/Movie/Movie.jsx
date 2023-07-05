@@ -1,8 +1,13 @@
-import React from "react";
+import {  Suspense } from "react";
 import { Outlet } from "react-router";
 import { Container, PosterOverlay, Thumb, Title, Image, Overview, FeaturesList, FeaturesItem, Feature,  Value, StyledLink, Subheading } from "./Movie.styled"
 import propTypes from 'prop-types';
+import BeatLoader from 'react-spinners/ClipLoader';
 
+const override = {
+	display: 'block',
+	margin: '50px auto',
+};
 
 export const Movie = ({movie}) => {
     const genres = movie.genres.map(genre => genre.name);
@@ -46,7 +51,15 @@ export const Movie = ({movie}) => {
             </FeaturesList>
         </ Thumb>
         </Container>
+        <Suspense fallback={<BeatLoader
+	color={'#9c92f8'}
+	cssOverride={override}
+	size={150}
+	aria-label="Loading Spinner"
+	data-testid="loader"
+/>}>
         <Outlet />
+        </Suspense>
     </>
     )
 }

@@ -7,7 +7,7 @@ import { GoBackButton } from '../components/GoBackButton/GoBackButton';
 
 const override = {
 	display: 'block',
-	margin: '30px auto',
+	margin: '100px auto',
 };
 
 

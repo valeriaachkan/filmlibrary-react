@@ -6,9 +6,8 @@ import BeatLoader from 'react-spinners/ClipLoader';
 
 const override = {
 	display: 'block',
-	margin: '30px auto',
+	margin: '50px auto',
 };
-
 
 const Reviews = () => {
     const [reviews, setReviews] = useState(null);
