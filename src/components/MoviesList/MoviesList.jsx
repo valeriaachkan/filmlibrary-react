@@ -1,15 +1,23 @@
 import { Heading, StyledLink } from "./MoviesList.styled";
+import propTypes from 'prop-types';
 
-export const MoviesList = ({movies}) => {
+
+export const MoviesList = ({movies, heading, state}) => {
+
     return (
         <>
-        <Heading>Top Rated</Heading>
+        <Heading>{heading}</Heading>
         <ul>
            {movies.map((movie) => {
-            console.log(movie)
             return (
-           <li><StyledLink to={`movies/${movie.id}`}>{movie.title}</StyledLink></li>)})}
+           <li key={movie.id}><StyledLink to={state.from === '/' ? `movies/${movie.id}` : `${movie.id}`} state={{from: state.from}}>{movie.title}</StyledLink></li>)})}
         </ul>
         </>
     )
+}
+
+MoviesList.propTypes = {
+    movies: propTypes.arrayOf(propTypes.object),
+    heading: propTypes.string,
+    state: propTypes.object
 }

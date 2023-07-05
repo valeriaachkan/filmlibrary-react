@@ -1,7 +1,12 @@
 import { useEffect, useState } from 'react';
 import { MoviesList } from '../components/MoviesList/MoviesList';
-import MoviesApiService from '../api-service';
+import {fetchTopRatedMovies} from '../api-service';
+import BeatLoader from 'react-spinners/ClipLoader';
 
+const override = {
+	display: 'block',
+	margin: '30px auto',
+};
 
 
 const Home = () => {
@@ -10,13 +15,12 @@ const Home = () => {
     const [error, setError] = useState(false);
 
     useEffect(() => {
-const moviesApiService = new MoviesApiService();
 
         async function getTopRatedMovies() {
             try {
                 setLoading(true);
                 setError(false);
-                const fetchedMovies = await moviesApiService.fetchTopRatedMovies();
+                const fetchedMovies = await fetchTopRatedMovies();
                 setMovies(fetchedMovies);
             } catch (error) {
                 setError(true);
@@ -31,8 +35,15 @@ const moviesApiService = new MoviesApiService();
     return (
         <main>
             {error && <p>Sorry, something went wrong! Try reloading the page!</p>}
-            {loading && <b>Loading data, please wait...</b>}
-            {movies.length > 0 && <MoviesList movies={movies} />}
+            {loading && <BeatLoader
+	color={'#9c92f8'}
+	loading={loading}
+	cssOverride={override}
+	size={150}
+	aria-label="Loading Spinner"
+	data-testid="loader"
+/>}
+            {movies.length > 0 && <MoviesList movies={movies} heading={'Top Rated'} state={{from:'/'}}/>}
         </main>
     )
 }
