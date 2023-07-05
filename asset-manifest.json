@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/valeriaachkan/filmlibrary-react/static/css/main.f4f5793a.css",
+    "main.js": "/valeriaachkan/filmlibrary-react/static/js/main.c3a7582e.js",
+    "static/js/415.6ba6ca54.chunk.js": "/valeriaachkan/filmlibrary-react/static/js/415.6ba6ca54.chunk.js",
+    "static/js/637.7af65c47.chunk.js": "/valeriaachkan/filmlibrary-react/static/js/637.7af65c47.chunk.js",
+    "static/js/886.9f0fd36d.chunk.js": "/valeriaachkan/filmlibrary-react/static/js/886.9f0fd36d.chunk.js",
+    "static/js/387.43ee0c78.chunk.js": "/valeriaachkan/filmlibrary-react/static/js/387.43ee0c78.chunk.js",
+    "static/js/779.a5756391.chunk.js": "/valeriaachkan/filmlibrary-react/static/js/779.a5756391.chunk.js",
+    "static/js/254.63166296.chunk.js": "/valeriaachkan/filmlibrary-react/static/js/254.63166296.chunk.js",
+    "index.html": "/valeriaachkan/filmlibrary-react/index.html",
+    "main.f4f5793a.css.map": "/valeriaachkan/filmlibrary-react/static/css/main.f4f5793a.css.map",
+    "main.c3a7582e.js.map": "/valeriaachkan/filmlibrary-react/static/js/main.c3a7582e.js.map",
+    "415.6ba6ca54.chunk.js.map": "/valeriaachkan/filmlibrary-react/static/js/415.6ba6ca54.chunk.js.map",
+    "637.7af65c47.chunk.js.map": "/valeriaachkan/filmlibrary-react/static/js/637.7af65c47.chunk.js.map",
+    "886.9f0fd36d.chunk.js.map": "/valeriaachkan/filmlibrary-react/static/js/886.9f0fd36d.chunk.js.map",
+    "387.43ee0c78.chunk.js.map": "/valeriaachkan/filmlibrary-react/static/js/387.43ee0c78.chunk.js.map",
+    "779.a5756391.chunk.js.map": "/valeriaachkan/filmlibrary-react/static/js/779.a5756391.chunk.js.map",
+    "254.63166296.chunk.js.map": "/valeriaachkan/filmlibrary-react/static/js/254.63166296.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4f5793a.css",
+    "static/js/main.c3a7582e.js"
+  ]
+}
