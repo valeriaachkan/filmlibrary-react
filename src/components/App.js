@@ -1,5 +1,5 @@
 import { lazy } from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import { SharedLayout } from './SharedLayout/SharedLayout';
 
 const Home = lazy(() => import('../pages/Home'));
@@ -19,7 +19,7 @@ const App = () => {
 						<Route path="cast" element={<Cast />} />
 						<Route path="reviews" element={<Reviews />} />
 					</Route>
-					<Route path="*" element={<div>Not Found</div>} />
+					<Route path="*" element={<Navigate to="/" />} />
 				</Route>
 			</Routes>
 		</div>
