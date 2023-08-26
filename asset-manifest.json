@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/filmlibrary-react/static/css/main.f4f5793a.css",
-    "main.js": "/filmlibrary-react/static/js/main.dd409c86.js",
+    "main.js": "/filmlibrary-react/static/js/main.a6ff6e5e.js",
     "static/js/415.6ba6ca54.chunk.js": "/filmlibrary-react/static/js/415.6ba6ca54.chunk.js",
     "static/js/637.7af65c47.chunk.js": "/filmlibrary-react/static/js/637.7af65c47.chunk.js",
     "static/js/886.9f0fd36d.chunk.js": "/filmlibrary-react/static/js/886.9f0fd36d.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/254.63166296.chunk.js": "/filmlibrary-react/static/js/254.63166296.chunk.js",
     "index.html": "/filmlibrary-react/index.html",
     "main.f4f5793a.css.map": "/filmlibrary-react/static/css/main.f4f5793a.css.map",
-    "main.dd409c86.js.map": "/filmlibrary-react/static/js/main.dd409c86.js.map",
+    "main.a6ff6e5e.js.map": "/filmlibrary-react/static/js/main.a6ff6e5e.js.map",
     "415.6ba6ca54.chunk.js.map": "/filmlibrary-react/static/js/415.6ba6ca54.chunk.js.map",
     "637.7af65c47.chunk.js.map": "/filmlibrary-react/static/js/637.7af65c47.chunk.js.map",
     "886.9f0fd36d.chunk.js.map": "/filmlibrary-react/static/js/886.9f0fd36d.chunk.js.map",
@@ -20,6 +20,6 @@
   },
   "entrypoints": [
     "static/css/main.f4f5793a.css",
-    "static/js/main.dd409c86.js"
+    "static/js/main.a6ff6e5e.js"
   ]
 }
